@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 switch (v.getId()){
                     case R.id.BotonIngresar:
-                        if (usuario.equals("") && contra.equals("12345")){
+                        if (usuario.equals("camilo") && contra.equals("12345")){
                             Toast.makeText(getApplicationContext(), "Bienvenido", Toast.LENGTH_SHORT) .show();
                             Intent intent = new Intent(MainActivity.this, Menu.class);
                             startActivity(intent);
